@@ -1,0 +1,2 @@
+# kana-trainer
+Train Kana
