@@ -1,0 +1,7 @@
+.banner {
+    text-align: center;
+    padding: 1em;
+    color: rgb(203, 165, 138);
+    background: url("/public/images/banner.png");
+    height: 3em;
+}

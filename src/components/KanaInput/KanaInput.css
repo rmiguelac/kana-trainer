@@ -1,0 +1,17 @@
+.kana-input-container {
+    text-align: center;
+}
+
+.kana-input-field {
+    text-align: center;
+    font-size: 48px;
+    height: 64px;
+    width: 120px;
+    border-bottom: 1px solid rgba(red, green, blue, 0.25);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.kana-input-field:hover, .kana-input-field:focus {
+}
