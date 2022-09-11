@@ -1,7 +1,11 @@
 .banner {
     text-align: center;
     padding: 1em;
-    color: rgb(203, 165, 138);
+    color: var(--text-coffee-color);
     background: url("/public/images/banner.png");
     height: 3em;
+}
+
+.banner h1 {
+    margin: 0
 }

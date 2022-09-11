@@ -3,15 +3,19 @@
 }
 
 .kana-input-field {
+    margin: 12px 0;
     text-align: center;
     font-size: 48px;
     height: 64px;
-    width: 120px;
-    border-bottom: 1px solid rgba(red, green, blue, 0.25);
+    width: 172px;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
+    background: transparent;
+    caret-color: var(--text-coffee-color);
+    
 }
 
 .kana-input-field:hover, .kana-input-field:focus {
+    outline: none;
 }

@@ -1,0 +1,11 @@
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    background: url('/public/images/banner.png');
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    color: var(--text-coffee-color);
+}

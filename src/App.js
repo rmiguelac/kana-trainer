@@ -1,16 +1,14 @@
 import Banner from './components/Banner';
-import KanaDisplay from './components/KanaDisplay';
-import KanaInput from './components/KanaInput'
-import Score from './components/Score'
+import KanaContainer from './components/KanaContainer';
+import Footer from './components/Footer';
 
 // Isto é um component
 function App() {
   return (
     <div className="App">
       <Banner />
-      <KanaDisplay />
-      <KanaInput />
-      <Score />
+      <KanaContainer />
+      <Footer />
     </div>
   );
 }

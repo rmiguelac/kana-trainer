@@ -2,5 +2,6 @@
     margin: 10%;
     font-size: 98px;
     text-align: center;
-    color: rgb(203, 165, 138);
+    color: var(--text-coffee-color);
+    text-shadow: 8px 8px 8px rgba(0,0,0, 0.25);
 }

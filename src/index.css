@@ -1,5 +1,11 @@
-html, h1 {
-  margin: 0
+:root {
+  --text-coffee-color: rgb(203, 165, 138);
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 body {
@@ -9,6 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('/public/images/background.png');
 }
 
 code {
