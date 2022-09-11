@@ -3,11 +3,12 @@
 }
 
 .kana-input-field {
+    color: var(--text-coffee-color);
     margin: 12px 0;
     text-align: center;
-    font-size: 48px;
+    font-size: 36px;
     height: 64px;
-    width: 172px;
+    width: 240px;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;

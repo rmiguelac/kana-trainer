@@ -1,10 +1,19 @@
 import './KanaInput.css'
 
-const KanaInput = () => {
+
+const KanaInput = (props) => {
+
+    const onAnswer = (e) => {
+        e.preventDefault();
+        if (e.code === "Enter" || e.code === "NumpadEnter") {
+            console.log('Enter pressionado') 
+        }
+        props.onAnswer()
+    }
     return (
-        <div className='kana-input-container'>
-            <input className='kana-input-field'/>
-        </div>
+        <form onSubmit={onAnswer} className='kana-input-container'>
+            <input type='text' className='kana-input-field'/>
+        </form>
     )
 };
 
