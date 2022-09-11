@@ -8,7 +8,7 @@ const KanaForm = () => {
 
     const onAnswer = (e) => {
         e.preventDefault()
-        console.log('Submetido')
+        console.log('Submetido:', answer)
     }
 
     return (
